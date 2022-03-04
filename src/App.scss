@@ -1,0 +1,108 @@
+.list{
+  background-color: rebeccapurple;
+  color: white;
+    display: flex;
+    justify-content: space-around;
+    line-height: 98px;
+    margin: 10px 0px;
+    border-radius: 20px;
+
+    .list_item{
+      font-weight: bold;
+    }
+    .edit-icon{
+      height: 30px;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+    .move-icon{
+      height: 30px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .delete-icon{
+      height: 30px;
+      cursor: pointer;
+      margin-left: 20px;
+
+    }
+    .img-container{
+      height: 50px;
+      width: 50px;
+      margin-top: 25px;
+      border-radius: 100%;
+      background-color: #ffffff;
+      overflow: hidden;
+      .child-img{
+        height: 50px;
+        width: 100%;
+        margin: 0px 0px 50px 0px;
+      }
+    }
+}
+
+.login-form{
+  min-height: 100vh;
+  background-color: darkgray;
+  form{
+      width: 50%;
+      margin: auto;
+      border: 2px solid black;
+      border-radius: 30px;
+      padding: 15px;
+      font-weight: bold;
+      background-color: gainsboro;
+  }
+}
+#Sidenav{
+  height: calc(100vh - 80px);
+  .pro-sidebar-inner{
+    background-color: var(--bs-primary);
+    color: black;  
+  }
+  .pro-icon-wrapper {
+    background-color: var(--bs-primary);
+  }
+  .pro-sidebar.collapsed {
+    width: 100px;
+    min-width: 80px;
+}
+}
+.navbar ul li a{
+  margin-left: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-logo{
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.user-icon{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.transportation{
+  padding-top: 100px;
+  min-height: 90vh;
+ background-color: gainsboro;
+  .form{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+}
+.vertical-line{
+  border-left: 2px solid black;
+  height: 90vh;
+  position:absolute;
+  left: 50%;
+}
+.location{
+  margin-right: 100px;
+}
+textarea{
+  border: 1px solid black;
+  border-radius: 20px;
+}
